@@ -1,0 +1,37 @@
+@model Function
+<a href="/Loggout">Loggout</a>
+<br>
+<a href="/Dashboard">Home</a>
+<br>
+<br>
+<h1>New Auction</h1>
+<br>
+
+<br>
+<br>
+<form asp-action="NewProduct" asp-controller="Home" method="POST">
+    <span asp-validation-for="Product"></span>
+    <label asp-for="Product"> Product Name:</label>
+    <input asp-for="Product"><br>
+
+    <span asp-validation-for="Description"></span>
+    <label asp-for="Description">Description:</label>
+    <input asp-for="Description"><br>
+
+    <span asp-validation-for="StartBid"></span>
+    <label asp-for="StartBid">Starting Bid:</label>
+    <input asp-for="StartBid"><br>
+
+    <span asp-validation-for="Date"></span>
+    <label asp-for="Date">End Date:</label>
+    <input asp-for="Date"><br>
+    <input type="submit" value="NewProduct">
+
+    </form>
+    @if(ViewBag.Error != null){
+<p>@ViewBag.Error</p>
+}
+    
+
+
+

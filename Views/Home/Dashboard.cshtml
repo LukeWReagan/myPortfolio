@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Bright Ideas";
+}
+
+@model User
+<h1 style="display: inline-block">Current Auctions</h1>
+<p style="display: inline-block; vertical-align: right"> Hello @ViewBag.CurrentUser.FirstName <a href="/Loggout">Loggout</a></p>
+
+@if (TempData["idea_error"] != null) {
+    @: <p>Must be more than 2 characters.</p>
+}
+
+<table class="table table-striped table-dark">
+        <thead>
+            <th>Product</th>
+            <th>Seller</th>
+            <th>Top Bid</th>
+            <th>Time Remaining</th>
+            <td>Action</td> 
+        </thead>
+        <tbody>
+            @{
+                foreach(var cha in @ViewBag.AllFunctions) {
+                    <tr>
+                        <td><a href="/Stats/@cha.Functionid">@cha.Product</a></td>
+                        <td>@cha.user.FirstName</td>
+                        <td>@cha.StartBid</td>
+                        <td><a href="/display/@cha.Functionid">@cha.bid.Count</a></td>
+                        @{
+                            if( ViewBag.CurrentUser.User_id == cha.Userid)
+                            {
+                                <td> <a href="/Delete/@cha.Functionid">delete</a></td>
+                            }
+                        }
+                        
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+    <a href="/Display">New Auction</a>
+</div>

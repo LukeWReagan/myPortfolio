@@ -1,0 +1,26 @@
+<a href="/Loggout">Loggout</a>
+<br>
+<a href="/Dashboard">Home</a>
+
+<br>
+<br>
+<br>
+<h1>@ViewBag.CurrentFunction.Product</h1>
+<p>Created by: @ViewBag.CurrentFunction.user.FirstName</p>
+<h3>Time Remaining: </h3>
+<br>
+<br>
+
+<p>Description: @ViewBag.CurrentFunction.Description</p>
+<br>
+<br>
+<p>Current Highest Bid: </p>
+<p>By: </p>
+<br>
+<br>
+<form action ="/Bidding" method="POST">
+    <label name ="Add"></label>
+    <input name="Add" placeholder="Your Bid Goes Here" type="int">
+    <input type="submit" value="Bid!!!">
+    
+</form>
