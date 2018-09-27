@@ -31,7 +31,7 @@
     font-weight: 400;
     font-style: normal;
     font-size: 25px;
-    left: 1300px;
+    left: 970px;
     padding: 10px;
     margin-top: 25px;
     margin-left: 80px;
@@ -49,8 +49,8 @@
     display: inline-block;
     color: white;
     position: absolute;
-    right: 560px;
-    bottom: 170px;
+    right: 370px;
+    bottom: 10px;
     letter-spacing: 3px;
  }
 
@@ -71,7 +71,7 @@
 
    
 }
-.firstHead{
+.firstHead {
     margin-top: 15px;
     font-family: Ubuntu;
     font-weight: 400;
@@ -81,8 +81,8 @@
     line-height: 1em;
     text-transform: none;
     position: absolute;
-    top: 1050px;
-    left: 900px;
+    top: 1450px;
+    left: 1020px;
 }
 .firstBody {
     font-style: italic;
@@ -99,14 +99,14 @@
     line-height: 1.65em;
     text-transform: none;
     position: absolute;
-    top: 1100px;
+    top: 1500px;
     left: 900px;
 }
 .computer1 {
     position: absolute;
     width: 300px;
     height: 200px;
-    left: 550px;
+    left: 500px;
     top: 1030px;
     border-radius: 30%;
 }
@@ -114,7 +114,7 @@
     position: absolute;
     width: 300px;
     height: 200px;
-    left: 550px;
+    left: 500px;
     top: 1310px;
     border-radius: 30%;
 }
@@ -122,7 +122,7 @@
     position: absolute;
     width: 300px;
     height: 200px;
-    left: 550px;
+    left: 500px;
     top: 1590px;
     border-radius: 30%;
 }
@@ -156,7 +156,7 @@
     text-transform: none;
     position: absolute;
     top: 1030px;
-    left: 180px;
+    left: 145px;
 }
 .secondBody{
     font-style: italic;
@@ -174,7 +174,7 @@
     text-transform: none;
     position: absolute;
     top: 1080px;
-    left: 50px; 
+    left: 10px; 
 }
 .meanPic{
     position: absolute;
@@ -225,8 +225,8 @@
     line-height: 1em;
     text-transform: none;
     position: absolute;
-    top: 3900px;
-    left: 700px;
+    top: 3930px;
+    left: 590px;
 }
 .thirdBodyC{
     margin-top: 15px;
@@ -238,8 +238,8 @@
     line-height: 1em;
     text-transform: none;
     position: absolute;
-    top: 4000px;
-    left: 700px;
+    top: 4100px;
+    left: 595px;
 }
 .thirdBodyD{
     font-style: italic;
@@ -256,8 +256,8 @@
     line-height: 1.65em;
     text-transform: none;
     position: absolute;
-    top: 4050px;
-    left: 655px;
+    top: 4150px;
+    left: 550px;
 }
 
 .icon2{
@@ -265,14 +265,14 @@
     width: 280px;
     height: 320px;
     left: 40px;
-    top: 3870px;
+    top: 4050px;
 }
 .codingDojo2{
     position: absolute;
     width: 400px;
     height: 250px;
-    left: 40px;
-    top: 4300px;
+    left: 480px;
+    top: 4400px;
     border-radius: 30%;
 }
 .video{
@@ -305,7 +305,7 @@
     line-height: 1em;
     text-transform: none;
     position: absolute;
-    top: 5270px;
+    top: 5320px;
     left: 600px;
 }
 .fourthBodyL{
@@ -707,15 +707,15 @@
     line-height: 1em;
     text-transform: none;
     position: absolute;
-    top:2520px;
-    left: 665px;
+    top:2550px;
+    left: 510px;
 }
 .ideaIcon{
     height: 230px;
     width: 230px;
     position: absolute;
     top: 2650px;
-    left: 165px;
+    left: 190px;
 }
 .ideasD{
     font-style: italic;
@@ -737,7 +737,7 @@
     text-transform: none;
     position: absolute;
     top: 2870px;
-    left: 100px;
+    left: 130px;
 }
 .ideasLink{
     font-style: italic;
@@ -759,7 +759,7 @@
     text-transform: none;
     position: absolute;
     top: 3120px;
-    left: 200px;
+    left: 220px;
 }
 .ideasGit{
     font-style: italic;
@@ -781,14 +781,14 @@
     text-transform: none;
     position: absolute;
     top: 3150px;
-    left: 200px;
+    left: 220px;
 }
 .catIcon{
     height: 220px;
     width: 280px;
     position: absolute;
     top: 2650px;
-    left: 620px;
+    left: 790px;
 }
 .catD{
     font-style: italic;
@@ -810,7 +810,7 @@
     text-transform: none;
     position: absolute;
     top: 2870px;
-    left: 580px;
+    left: 740px;
 }
 .catGit{
     font-style: italic;
@@ -832,7 +832,7 @@
     text-transform: none;
     position: absolute;
     top: 3130px;
-    left: 670px;
+    left: 815px;
 }
 .userIcon{
     height: 220px;
