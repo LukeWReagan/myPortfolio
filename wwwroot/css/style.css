@@ -81,12 +81,12 @@
     line-height: 1em;
     text-transform: none;
     position: absolute;
-    top: 1500px;
-    left: 1227px;
+    top: 1050px;
+    left: 900px;
 }
-.firstBody{
+.firstBody {
     font-style: italic;
-    text-align: center;  
+    text-align: center;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -99,30 +99,30 @@
     line-height: 1.65em;
     text-transform: none;
     position: absolute;
-    top: 1550px;
-    left: 1100px;
+    top: 1100px;
+    left: 900px;
 }
-.computer1{
+.computer1 {
     position: absolute;
     width: 300px;
     height: 200px;
-    left: 640px;
+    left: 550px;
     top: 1030px;
     border-radius: 30%;
 }
-.computer2{
+.computer2 {
     position: absolute;
     width: 300px;
     height: 200px;
-    left: 640px;
+    left: 550px;
     top: 1310px;
     border-radius: 30%;
 }
-.travel1{
+.travel1 {
     position: absolute;
     width: 300px;
     height: 200px;
-    left: 640px;
+    left: 550px;
     top: 1590px;
     border-radius: 30%;
 }
