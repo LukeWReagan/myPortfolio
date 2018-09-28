@@ -1,3 +1,6 @@
+body{
+    width: 100%;
+}
 #topBox{
     display: inline-block;
     background: #0f0704;
