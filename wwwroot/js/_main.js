@@ -31,7 +31,9 @@
 	function adjustWindow(){
 		
 		// Init Skrollr
-		
+		var s = skrollr.init({
+			forceHeight: false
+		});
 		
 		// Get window size
 	    winH = $window.height();
@@ -45,8 +47,7 @@
 	    $slide.height(winH);
 	    
 	    // Refresh Skrollr after resizing our sections
-		
-	    
+		s.refresh($('.homeSlide'));
 	}
 		
 } )( jQuery );
