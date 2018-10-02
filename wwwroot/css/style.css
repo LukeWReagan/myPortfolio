@@ -34,8 +34,8 @@
     font-style: normal;
     font-size: 25px;
     color: white;
-    position: relative;
-    left: 55%;
+    float: right;
+    padding: 40px;
 }
 
 
