@@ -45,10 +45,9 @@
     font-weight: 400;
     font-family: Ubuntu;
     font-size: 71px;
-    margin-top: 20px;
+    margin-top: 60px;
     display: inline-block;
     color: white;
-    padding: 100px 550px;
  }
 
 .seattle{
@@ -68,8 +67,14 @@
 
    
 }
+#about{
+    display: block;
+    float: right;
+    margin-right: 80px;
+    margin-top: 500px;
+
+}
 .firstHead {
-    margin-top: 15px;
     font-family: Ubuntu;
     font-weight: 400;
     font-style: normal;
@@ -77,9 +82,9 @@
     letter-spacing: .2em;
     line-height: 1em;
     text-transform: none;
-    position: absolute;
-    top: 1450px;
-    left: 1020px;
+    display: block;
+    margin-left: 120px;
+    
 }
 .firstBody {
     font-style: italic;
@@ -95,33 +100,39 @@
     letter-spacing: .1em;
     line-height: 1.65em;
     text-transform: none;
-    position: absolute;
-    top: 1500px;
-    left: 900px;
+    display: inline-block;
+}
+#computerImg{
+    display: block;
+    align-content: center;
 }
 .computer1 {
-    position: absolute;
     width: 300px;
     height: 200px;
-    left: 500px;
-    top: 1030px;
     border-radius: 30%;
+    display: inline-block;
+    margin-left: 120px;
+    margin-bottom: 250px;
 }
 .computer2 {
-    position: absolute;
     width: 300px;
     height: 200px;
-    left: 500px;
-    top: 1310px;
     border-radius: 30%;
+    display: inline-block; 
+    position: absolute;
+    left: 616px;
+    top: 1400px;
+    
+    
 }
 .travel1 {
-    position: absolute;
     width: 300px;
     height: 200px;
-    left: 500px;
-    top: 1590px;
     border-radius: 30%;
+    display: inline-block;
+    margin-left: 610px;
+    margin-top: 80px;
+    
 }
 .books{
     width: 100%;
@@ -132,7 +143,8 @@
 }
 .second{
     height: 940px;
-    width: 100%px;
+    width: 100%;
+    display: inline-block;
 }
 .third{
     height: 780px;
@@ -141,6 +153,12 @@
 .fourth{
     height: 780px;
     width: 100%;
+}
+#insperation{
+    display: block;
+    margin-left: 50px;
+    margin-top: 80px;
+    overflow: auto;
 }
 .secondHead{
     margin-top: 15px;
@@ -151,9 +169,8 @@
     letter-spacing: .2em;
     line-height: 1em;
     text-transform: none;
-    position: absolute;
-    top: 1030px;
-    left: 145px;
+    display: block;
+    margin-left: 140px;
 }
 .secondBody{
     font-style: italic;
@@ -169,9 +186,7 @@
     letter-spacing: .1em;
     line-height: 1.65em;
     text-transform: none;
-    position: absolute;
-    top: 1080px;
-    left: 10px; 
+    display: inline-block; 
 }
 .meanPic{
     position: absolute;
@@ -193,6 +208,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
+    text-align: center;
 }
 .parallax2 { 
     background-image: url("images/walking.jpg");
