@@ -111,28 +111,22 @@
     height: 200px;
     border-radius: 30%;
     display: inline-block;
-    margin-left: 120px;
-    margin-bottom: 250px;
+    float: right;
+    margin-top: 100px;
 }
 .computer2 {
     width: 300px;
     height: 200px;
     border-radius: 30%;
     display: inline-block; 
-    position: absolute;
-    left: 616px;
-    top: 1400px;
-    
-    
+    margin-top: 200px;
+    margin-left: 200px;
 }
 .travel1 {
     width: 300px;
     height: 200px;
     border-radius: 30%;
     display: inline-block;
-    margin-left: 610px;
-    margin-top: 80px;
-    
 }
 .books{
     width: 100%;
