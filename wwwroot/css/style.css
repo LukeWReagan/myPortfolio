@@ -147,6 +147,7 @@
 .fourth{
     height: 780px;
     width: 100%;
+    text-align: center;
 }
 #insperation{
     display: block;
@@ -272,7 +273,7 @@
 #check{
     text-align: center;
     display: inline-block;
-    margin-left: 200px;
+    margin-right: 380px;
 }
 .handshake{
     width: 450px;
@@ -283,7 +284,7 @@
     height: 320px;
 }
 .codingDojo2{
-    float: right;
+    float: left;
     width: 400px;
     height: 250px;
     border-radius: 30%;
