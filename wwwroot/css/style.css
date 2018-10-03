@@ -223,6 +223,7 @@
    
 }
 .thirdHead{
+    text-align: center;
     margin-top: 15px;
     font-family: Ubuntu;
     font-weight: 400;
@@ -233,6 +234,7 @@
     text-transform: none;
 }
 .thirdBodyC{
+    text-align: center;
     margin-top: 15px;
     font-family: Ubuntu;
     font-weight: 400;
@@ -243,6 +245,7 @@
     text-transform: none;
 }
 .thirdBodyD{
+    display: inline-block;
     font-style: italic;
     text-align: center;
     margin-block-start: 1em;
@@ -257,18 +260,35 @@
     line-height: 1.65em;
     text-transform: none;
 }
-
+#fourthB{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+#fourthC{
+    /* display: block;
+    text-align: center; */
+}
+#check{
+    text-align: center;
+    display: inline-block;
+    margin-left: 200px;
+}
+.handshake{
+    width: 450px;
+    height: 320px;
+}
 .icon2{
     width: 280px;
     height: 320px;
 }
 .codingDojo2{
+    float: right;
     width: 400px;
     height: 250px;
     border-radius: 30%;
 }
 .video{
-    
     left: 1000px;
     top: 4236px;
     border-radius: 30%;
@@ -282,6 +302,8 @@
     background-size: cover;
    
 }
+
+
 .fifth{
     
     height: 780px;
