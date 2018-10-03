@@ -750,9 +750,16 @@
     line-height: 1.65em;
     text-transform: none;
 }
+#thirdLink3{
+    display:inline-block;
+    margin-left: 250px;
+}
+#continued{
+    display: block;
+}
 .ideasGit{
+    margin-left: 290px;
     font-style: italic;
-    text-align: center;
     -webkit-margin-before: 1em;
     margin-block-start: 1em;
     -webkit-margin-after: 1em;
@@ -768,13 +775,25 @@
     letter-spacing: .1em;
     line-height: 1.65em;
     text-transform: none;
+    display: inline-block;
 }
 .catIcon{
     height: 220px;
     width: 280px;
-    margin-left: 650px;
+    float: right;
+    margin-right: 200px;
+}
+#description1{
+    display: inline-block;
+    margin-left: 160px;
+}
+#description2{
+    display: inline-block;
+    float: right;
+    margin-right: 145px;
 }
 .catD{
+    margin-right: 200px;
     display: inline-block;
     font-style: italic;
     text-align: center;
@@ -813,33 +832,27 @@
     line-height: 1.65em;
     text-transform: none;
 }
+thirdD{
+display: block;
+}
 #thirdPics{
     margin-top: 40px;
-    display: inline-block;
+    display: block;
     margin-left: 230px;
 }
-#thirdDescriptionI{
+#thirdLink1{
     display: inline-block;
-    margin-top: 5px;
-    margin-left: 173px;
-}
-#thirdDescriptionC{
-    display: inline-block;
-    margin-left: 530px;
-}
-#thirdLinkI{
-display: inline-block;
-margin-left: 250px;
-}
-#thirdLinkG{
-display: block;
-margin-left: 250px;
-}
-#thirdLinkC{
-display: inline-block;
-margin-left: 730px;
-}
+    margin-left: 250px;
 
+}
+#thirdLink2{
+    display: inline-block;
+    float: right;
+    margin-right: 220px;
+}
+#firstSection{
+    display: block;
+}
 .userGit{
     font-style: italic;
     text-align: center;
