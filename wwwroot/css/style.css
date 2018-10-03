@@ -302,14 +302,25 @@
     background-size: cover;
    
 }
-
+#list{
+    margin-left: 200px;
+    display: inline-block;
+    width: 20%;
+}
 
 .fifth{
-    
+    display: inline-block;
     height: 780px;
     width: 100%;
 }
+ul{
+    display: inline-block;
+}
+ul.li{
+    display: inline-block;
+}
 .fourthHead{
+    margin-left: 450px;
     margin-top: 15px;
     font-family: Ubuntu;
     font-weight: 400;
@@ -318,9 +329,6 @@
     letter-spacing: .2em;
     line-height: 1em;
     text-transform: none;
-    position: absolute;
-    top: 5320px;
-    left: 600px;
 }
 .fourthBodyL{
     margin-top: 15px;
@@ -331,9 +339,6 @@
     letter-spacing: .2em;
     line-height: 1em;
     text-transform: none;
-    position: absolute;
-    top: 5420px;
-    left: 600px;
 }
 .fourthBodyLL{
     display: inline-block;
@@ -363,9 +368,6 @@
     letter-spacing: .2em;
     line-height: 1em;
     text-transform: none;
-    position: absolute;
-    top: 5490px;
-    left: 600px;
 }
 .fourthBodyFF{
     display: inline-block;
@@ -395,9 +397,6 @@
     letter-spacing: .2em;
     line-height: 1em;
     text-transform: none;
-    position: absolute;
-    top: 5560px;
-    left: 600px;
 }
 .fourthBodySS{
     display: inline-block;
@@ -427,9 +426,6 @@
     letter-spacing: .2em;
     line-height: 1em;
     text-transform: none;
-    position: absolute;
-    top: 5630px;
-    left: 600px;
 }
 .fourthBodyDD{
     display: inline-block;
@@ -459,9 +455,6 @@
     letter-spacing: .2em;
     line-height: 1em;
     text-transform: none;
-    position: absolute;
-    top: 5700px;
-    left: 600px;
 }
 .fourthBodyFEE{
     display: inline-block;
@@ -491,9 +484,16 @@
     letter-spacing: .2em;
     line-height: 1em;
     text-transform: none;
-    position: absolute;
-    top: 5770px;
-    left: 600px;
+}
+ul{
+    display: block;
+    font-style: italic;
+    font-family: brevia;
+    font-weight: 450;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    line-height: 1.65em;
+    text-transform: none;
 }
 .fourthBodyMM{
     display: inline-block;
@@ -612,105 +612,75 @@
     height: 100px;
     width: 100px;
     display: inline-block;
-    position: absolute;
-    left: 60px;
-    top: 5420px;
 }
 .info2{
     height: 100px;
     width: 100px;
     display: inline-block;
-    position: absolute;
-    left: 160px;
-    top: 5420px;
 }
 .info3{
     height: 100px;
     width: 100px;
     display: inline-block;
-    position: absolute;
-    left: 275px;
-    top: 5420px;
 }
 .info4{
     height: 100px;
     width: 130px;
     display: inline-block;
-    position: absolute;
-    left: 390px;
-    top: 5420px;
 }
 .info5{
     height: 100px;
     width: 100px;
     display: inline-block;
-    position: absolute;
-    left: 60px;
-    top: 5560px;
 }
 .info6{
     height: 90px;
     width: 120px;
     display: inline-block;
-    position: absolute;
-    left: 170px;
-    top: 5560px;
 }
 .info7{
     height: 100px;
     width: 100px;
     display: inline-block;
-    position: absolute;
-    left: 300px;
-    top: 5560px;
 }
 .info8{
     height: 100px;
     width: 100px;
     display: inline-block;
-    position: absolute;
-    left: 420px;
-    top: 5560px;
 }
 .info9{
     height: 120px;
     width: 120px;
     display: inline-block;
-    position: absolute;
-    left: 40px;
-    top: 5670px;
 }
 .info10{
     height: 120px;
     width: 120px;
     display: inline-block;
-    position: absolute;
-    left: 417px;
-    top: 5680px;
 }
 .info11{
     height: 100px;
     width: 100px;
     display: inline-block;
-    position: absolute;
-    left: 165px;
-    top: 5680px;
 }
 .info12{
     height: 120px;
     width: 120px;
     display: inline-block;
-    position: absolute;
-    left: 290px;
-    top: 5685px;
 }
 .info13{
     height: 150px;
     width: 150px;
     display: inline-block;
-    position: absolute;
-    left: 240px;
-    top: 5790px;
+    margin-left: 100px;
+}
+#infoImg{
+    display: inline-block;
+    width: 400px;
+    height: 100%;
+    float: right;
+    margin-top: 100px;
+    margin-right: 200px; 
 }
 .ideaIcon{
     height: 230px;
