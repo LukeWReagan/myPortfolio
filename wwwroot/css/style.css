@@ -303,9 +303,11 @@
    
 }
 #list{
-    margin-left: 200px;
+    margin-right: 300px;
     display: inline-block;
     width: 20%;
+    float: right;
+
 }
 
 .fifth{
@@ -675,12 +677,15 @@ ul{
     margin-left: 100px;
 }
 #infoImg{
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: auto;
+    width: 40%;
     display: inline-block;
     width: 400px;
     height: 100%;
-    float: right;
-    margin-top: 100px;
-    margin-right: 200px; 
+    /* margin-top: 100px;
+    margin-right: 200px;  */
 }
 .ideaIcon{
     height: 230px;
